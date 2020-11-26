@@ -1,0 +1,28 @@
+{
+  "name": "docsify-wikilink",
+  "version": "1.0.0",
+  "description": "Allows wikilinks features within the Docsify",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpengg/docsify-wikilink.git"
+  },
+  "keywords": [
+    "docsify",
+    "wikilink",
+    "wiki",
+    "plugin"
+  ],
+  "author": "zpengg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpengg/docsify-wikilink/issues"
+  },
+  "homepage": "https://github.com/zpengg/docsify-wikilink#readme"
+}
