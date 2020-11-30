@@ -1,6 +1,6 @@
 {
   "name": "docsify-wikilink",
-f  "version": "1.0.1",
+  "version": "1.0.1",
   "description": "Allows wikilinks features within the Docsify",
   "main": "index.js",
   "directories": {
