@@ -7,7 +7,7 @@ function plugin(hook, vm) {
     // 解析成 html 后调用。
     // beforeEach 和 afterEach 支持处理异步逻辑
     let dir = location.hash.split('/')[0]
-    res = html.replace(/<p>.+?<\/p>/g, function(para){
+    let res = html.replace(/<p>.+?<\/p>/g, function(para){
       const eachParaRes = para.replace(/\[\[([^\[\]]+)\]\]/g, function(content){
         const innerContent = content.replace('[[', '').replace(']]', '')
         const splits = innerContent.split('|')
