@@ -12,5 +12,5 @@ This is a plugin allow wikilinks features for markdown files of docsify.
 
 add this line of code to Docsify project to install this plugin.
 ```html
-  <script src="//cdn.jsdelivr.net/npm/docsify-wikilink.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@latest/dist/wiki.min.js"></script>
 ```
