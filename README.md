@@ -14,3 +14,5 @@ add this line of code to Docsify project to install this plugin.
 ```html
 <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
 ```
+
+[preview example](https://zpengg.github.io/docsify-wikilink/#/)
