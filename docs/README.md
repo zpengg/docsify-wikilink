@@ -36,3 +36,7 @@ link 2 a file name 'fileName.md' in the same directory.
 ```
 [[fileName#topic2| topic2 of FileName]]
 
+```
+[[subPath/subPathFile]]
+```
+[[subPath/subPathFile]]
