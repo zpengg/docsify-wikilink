@@ -31,6 +31,7 @@ function plugin(hook, vm) {
           topic = `?id=${linkTopicSps[1]}`
           showText = `${linkAliasSps[1].trim()}`
         }
+        if (showText.split("|").length==2){showText=showText.split("|")[1]}
         if (hashPath.indexOf('/') === 0) {
           //absolute path
           return `<a href="#${hashPath}${topic}">${showText}</a>`
