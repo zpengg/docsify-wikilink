@@ -14,7 +14,9 @@ function plugin(hook, vm) {
     const list = []
     list.push(...mdDom.getElementsByTagName('p'))
     list.push(...mdDom.getElementsByTagName('li'))
-
+    list.push(...mdDom.getElementsByTagName('td'))
+    list.push(...mdDom.getElementsByTagName('th'))
+    
     for (var i=0; i < list.length; i++) {
       var para = list[i].innerHTML
       const eachParaRes = para.replace(/\[\[([^\[\]]+)\]\]/g, function (content) {
